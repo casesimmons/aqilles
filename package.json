@@ -1,0 +1,36 @@
+{
+  "name": "@aqls/server",
+  "version": "1.0.0",
+  "description": "A full-stack GraphQL subscription analytics module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oslabs-beta/aqls.git"
+  },
+  "keywords": [
+    "GraphQL",
+    "Apollo",
+    "Apollo-Server",
+    "Apollo-Client",
+    "subscriptions",
+    "analytics"
+  ],
+  "author": "AqlOrg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oslabs-beta/aqls/issues"
+  },
+  "homepage": "https://aqls.io",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1",
+    "graphql": "^15.3.0",
+    "node": "^14.14.0",
+    "timesync": "^1.0.8",
+    "uuid": "^8.3.1"
+  }
+}
